@@ -26,7 +26,7 @@ try:
 except Exception as e:
     return jsonify({"message":str(e)}),400
 
-return jsonify({"message": "user created"}), 201
+return jsonify({"message": "User created!"}), 201
 
 if __name__ == "__main__":
     with app.app_context():
